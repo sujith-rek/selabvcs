@@ -21,10 +21,10 @@ class Company:
         self.employee.sort(key=lambda x:x.salary,reverse=True)
     
     def sort_by_age(self):
-        self.employee.sort(key=lambda x:x.age,reverse=True)
+        self.employee.sort(key=lambda x:x.age,reverse=False)
 
     def sort_by_name(self):
-        self.employee.sort(key=lambda x:x.name,reverse=True)
+        self.employee.sort(key=lambda x:x.name,reverse=False)
 
     def sort_by_id(self):
         self.employee.sort(key=lambda x:x.id,reverse=True)

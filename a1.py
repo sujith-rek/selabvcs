@@ -7,7 +7,7 @@ class Employee:
         self.salary = salary
     
     def get_data(self):
-        return self.id,self.name,self.age,self.salary
+        return self.id
 
 class Company:
 
